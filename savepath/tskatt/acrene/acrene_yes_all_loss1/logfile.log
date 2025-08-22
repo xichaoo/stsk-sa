@@ -1,0 +1,246 @@
+INFO - 06/03/25 16:17:38 - 0:00:00 - annealing_epoch: 10
+                                     batch_sz: 64
+                                     data_train: data//now/acrene//train.csv
+                                     data_val: data//now//acrene//val.csv
+                                     dropout: 0.1
+                                     img_hidden_sz: 1000
+                                     include_bn: True
+                                     input_dim: 10000
+                                     lr: 0.001
+                                     lr_factor: 0.3
+                                     lr_patience: 10
+                                     max_epochs: 300
+                                     max_seq_length: 20
+                                     mode: 2
+                                     n_classes: 2
+                                     n_heads: 1
+                                     n_rule: 5
+                                     n_workers: 4
+                                     name: acrene_yes_all_loss1
+                                     order: 1
+                                     patience: 20
+                                     savedir: .//savepath//tskatt//acrene/acrene_yes_all_loss1
+                                     seed: 1
+INFO - 06/03/25 16:18:07 - 0:00:29 - Train Loss: 16.9998
+INFO - 06/03/25 16:18:07 - 0:00:29 - val_loss:  all_loss: 12.87906, tsk1_loss: 207.51987, tsk2_loss: 149.71931, tsk3_loss: 319.96249, tsk4_loss: 55.86347
+INFO - 06/03/25 16:18:07 - 0:00:29 - val_acc: all_acc: 0.59635, tsk1_acc: 0.40712, tsk2_acc: 0.59635, tsk3_acc: 0.57465, tsk4_acc: 0.56684
+INFO - 06/03/25 16:18:07 - 0:00:29 - val_g_mean: all_g_mean: 0.56200, tsk1_g_mean: 0.35309, tsk2_g_mean: 0.57161, tsk3_g_mean: 0.54872, tsk4_g_mean: 0.57168
+INFO - 06/03/25 16:18:07 - 0:00:29 - val_auc:  all_auc: 0.68046, tsk1_auc: 0.32383, tsk2_auc: 0.69411, tsk3_auc: 0.55050, tsk4_auc: 0.55893
+INFO - 06/03/25 16:18:07 - 0:00:29 - val_f1:  all_f1: 0.54593, tsk1_f1: 0.34779, tsk2_f1: 0.56359, tsk3_f1: 0.54113, tsk4_f1: 0.56360
+INFO - 06/03/25 16:18:38 - 0:01:00 - Train Loss: 19.0828
+INFO - 06/03/25 16:18:38 - 0:01:00 - val_loss:  all_loss: 17.62202, tsk1_loss: 621.63251, tsk2_loss: 523.63911, tsk3_loss: 119.04401, tsk4_loss: 241.91352
+INFO - 06/03/25 16:18:38 - 0:01:00 - val_acc: all_acc: 0.61806, tsk1_acc: 0.44097, tsk2_acc: 0.55903, tsk3_acc: 0.45660, tsk4_acc: 0.41927
+INFO - 06/03/25 16:18:38 - 0:01:00 - val_g_mean: all_g_mean: 0.61495, tsk1_g_mean: 0.33203, tsk2_g_mean: 0.37384, tsk3_g_mean: 0.45550, tsk4_g_mean: 0.40502
+INFO - 06/03/25 16:18:38 - 0:01:00 - val_auc:  all_auc: 0.66295, tsk1_auc: 0.50000, tsk2_auc: 0.50000, tsk3_auc: 0.44064, tsk4_auc: 0.40288
+INFO - 06/03/25 16:18:38 - 0:01:00 - val_f1:  all_f1: 0.61448, tsk1_f1: 0.30602, tsk2_f1: 0.35857, tsk3_f1: 0.45470, tsk4_f1: 0.40431
+INFO - 06/03/25 16:19:09 - 0:01:31 - Train Loss: 18.4778
+INFO - 06/03/25 16:19:09 - 0:01:31 - val_loss:  all_loss: 11.46321, tsk1_loss: 136.48991, tsk2_loss: 170.75241, tsk3_loss: 211.77672, tsk4_loss: 444.95665
+INFO - 06/03/25 16:19:09 - 0:01:31 - val_acc: all_acc: 0.77778, tsk1_acc: 0.55903, tsk2_acc: 0.71875, tsk3_acc: 0.47049, tsk4_acc: 0.55903
+INFO - 06/03/25 16:19:09 - 0:01:31 - val_g_mean: all_g_mean: 0.77104, tsk1_g_mean: 0.37384, tsk2_g_mean: 0.72407, tsk3_g_mean: 0.45186, tsk4_g_mean: 0.37384
+INFO - 06/03/25 16:19:09 - 0:01:31 - val_auc:  all_auc: 0.84504, tsk1_auc: 0.52803, tsk2_auc: 0.72540, tsk3_auc: 0.53889, tsk4_auc: 0.50000
+INFO - 06/03/25 16:19:09 - 0:01:31 - val_f1:  all_f1: 0.76768, tsk1_f1: 0.35857, tsk2_f1: 0.71649, tsk3_f1: 0.36254, tsk4_f1: 0.35857
+INFO - 06/03/25 16:19:39 - 0:02:01 - Train Loss: 12.3688
+INFO - 06/03/25 16:19:39 - 0:02:01 - val_loss:  all_loss: 9.98539, tsk1_loss: 126.43859, tsk2_loss: 299.21561, tsk3_loss: 69.78504, tsk4_loss: 58.26634
+INFO - 06/03/25 16:19:39 - 0:02:01 - val_acc: all_acc: 0.68750, tsk1_acc: 0.67882, tsk2_acc: 0.65365, tsk3_acc: 0.76215, tsk4_acc: 0.74045
+INFO - 06/03/25 16:19:39 - 0:02:01 - val_g_mean: all_g_mean: 0.69650, tsk1_g_mean: 0.67102, tsk2_g_mean: 0.66773, tsk3_g_mean: 0.75250, tsk4_g_mean: 0.75786
+INFO - 06/03/25 16:19:39 - 0:02:01 - val_auc:  all_auc: 0.78574, tsk1_auc: 0.69659, tsk2_auc: 0.66695, tsk3_auc: 0.80888, tsk4_auc: 0.76905
+INFO - 06/03/25 16:19:39 - 0:02:01 - val_f1:  all_f1: 0.68663, tsk1_f1: 0.67014, tsk2_f1: 0.64849, tsk3_f1: 0.74311, tsk4_f1: 0.73727
+INFO - 06/03/25 16:20:10 - 0:02:32 - Train Loss: 9.6733
+INFO - 06/03/25 16:20:10 - 0:02:32 - val_loss:  all_loss: 9.22899, tsk1_loss: 107.14615, tsk2_loss: 131.72617, tsk3_loss: 385.76831, tsk4_loss: 79.43878
+INFO - 06/03/25 16:20:10 - 0:02:32 - val_acc: all_acc: 0.72049, tsk1_acc: 0.66753, tsk2_acc: 0.71875, tsk3_acc: 0.55903, tsk4_acc: 0.72483
+INFO - 06/03/25 16:20:10 - 0:02:32 - val_g_mean: all_g_mean: 0.70746, tsk1_g_mean: 0.64182, tsk2_g_mean: 0.72535, tsk3_g_mean: 0.37384, tsk4_g_mean: 0.74339
+INFO - 06/03/25 16:20:10 - 0:02:32 - val_auc:  all_auc: 0.85588, tsk1_auc: 0.66808, tsk2_auc: 0.72763, tsk3_auc: 0.50000, tsk4_auc: 0.76409
+INFO - 06/03/25 16:20:10 - 0:02:32 - val_f1:  all_f1: 0.69365, tsk1_f1: 0.59653, tsk2_f1: 0.71726, tsk3_f1: 0.35857, tsk4_f1: 0.72013
+INFO - 06/03/25 16:20:40 - 0:03:02 - Train Loss: 6.1449
+INFO - 06/03/25 16:20:40 - 0:03:02 - val_loss:  all_loss: 5.33762, tsk1_loss: 30.38101, tsk2_loss: 136.03323, tsk3_loss: 89.38063, tsk4_loss: 61.17154
+INFO - 06/03/25 16:20:40 - 0:03:02 - val_acc: all_acc: 0.65972, tsk1_acc: 0.75608, tsk2_acc: 0.63021, tsk3_acc: 0.69097, tsk4_acc: 0.67708
+INFO - 06/03/25 16:20:40 - 0:03:02 - val_g_mean: all_g_mean: 0.62849, tsk1_g_mean: 0.77206, tsk2_g_mean: 0.57996, tsk3_g_mean: 0.67886, tsk4_g_mean: 0.65556
+INFO - 06/03/25 16:20:40 - 0:03:02 - val_auc:  all_auc: 0.90620, tsk1_auc: 0.78889, tsk2_auc: 0.64955, tsk3_auc: 0.70888, tsk4_auc: 0.71183
+INFO - 06/03/25 16:20:40 - 0:03:02 - val_f1:  all_f1: 0.57483, tsk1_f1: 0.75387, tsk2_f1: 0.50931, tsk3_f1: 0.67455, tsk4_f1: 0.60517
+INFO - 06/03/25 16:21:11 - 0:03:33 - Train Loss: 3.4021
+INFO - 06/03/25 16:21:11 - 0:03:33 - val_loss:  all_loss: 7.61390, tsk1_loss: 90.32402, tsk2_loss: 91.59949, tsk3_loss: 318.14246, tsk4_loss: 17.20953
+INFO - 06/03/25 16:21:11 - 0:03:33 - val_acc: all_acc: 0.58073, tsk1_acc: 0.55556, tsk2_acc: 0.66927, tsk3_acc: 0.52170, tsk4_acc: 0.78906
+INFO - 06/03/25 16:21:11 - 0:03:33 - val_g_mean: all_g_mean: 0.59517, tsk1_g_mean: 0.57205, tsk2_g_mean: 0.65197, tsk3_g_mean: 0.53630, tsk4_g_mean: 0.78301
+INFO - 06/03/25 16:21:11 - 0:03:33 - val_auc:  all_auc: 0.74090, tsk1_auc: 0.61404, tsk2_auc: 0.67111, tsk3_auc: 0.57222, tsk4_auc: 0.85456
+INFO - 06/03/25 16:21:11 - 0:03:33 - val_f1:  all_f1: 0.56755, tsk1_f1: 0.50580, tsk2_f1: 0.64288, tsk3_f1: 0.45038, tsk4_f1: 0.77357
+INFO - 06/03/25 16:21:42 - 0:04:03 - Train Loss: 4.9910
+INFO - 06/03/25 16:21:42 - 0:04:03 - val_loss:  all_loss: 5.89154, tsk1_loss: 164.51521, tsk2_loss: 70.36160, tsk3_loss: 122.14652, tsk4_loss: 13.21590
+INFO - 06/03/25 16:21:42 - 0:04:03 - val_acc: all_acc: 0.68490, tsk1_acc: 0.60851, tsk2_acc: 0.70660, tsk3_acc: 0.75781, tsk4_acc: 0.84635
+INFO - 06/03/25 16:21:42 - 0:04:03 - val_g_mean: all_g_mean: 0.66401, tsk1_g_mean: 0.53911, tsk2_g_mean: 0.69401, tsk3_g_mean: 0.76816, tsk4_g_mean: 0.84360
+INFO - 06/03/25 16:21:42 - 0:04:03 - val_auc:  all_auc: 0.83901, tsk1_auc: 0.55580, tsk2_auc: 0.70285, tsk3_auc: 0.76905, tsk4_auc: 0.88862
+INFO - 06/03/25 16:21:42 - 0:04:03 - val_f1:  all_f1: 0.63319, tsk1_f1: 0.46669, tsk2_f1: 0.68704, tsk3_f1: 0.75691, tsk4_f1: 0.84061
+INFO - 06/03/25 16:22:12 - 0:04:34 - Train Loss: 2.4473
+INFO - 06/03/25 16:22:12 - 0:04:34 - val_loss:  all_loss: 3.70287, tsk1_loss: 37.74751, tsk2_loss: 31.73310, tsk3_loss: 116.77529, tsk4_loss: 24.90818
+INFO - 06/03/25 16:22:12 - 0:04:34 - val_acc: all_acc: 0.75174, tsk1_acc: 0.73003, tsk2_acc: 0.77344, tsk3_acc: 0.66753, tsk4_acc: 0.76562
+INFO - 06/03/25 16:22:12 - 0:04:34 - val_g_mean: all_g_mean: 0.74427, tsk1_g_mean: 0.71809, tsk2_g_mean: 0.78235, tsk3_g_mean: 0.64920, tsk4_g_mean: 0.77692
+INFO - 06/03/25 16:22:12 - 0:04:34 - val_auc:  all_auc: 0.89244, tsk1_auc: 0.81101, tsk2_auc: 0.78657, tsk3_auc: 0.65774, tsk4_auc: 0.80000
+INFO - 06/03/25 16:22:12 - 0:04:34 - val_f1:  all_f1: 0.71759, tsk1_f1: 0.69299, tsk2_f1: 0.77254, tsk3_f1: 0.63998, tsk4_f1: 0.76464
+INFO - 06/03/25 16:22:40 - 0:05:02 - Train Loss: 1.0507
+INFO - 06/03/25 16:22:40 - 0:05:02 - val_loss:  all_loss: 4.32344, tsk1_loss: 123.85237, tsk2_loss: 48.98241, tsk3_loss: 153.54749, tsk4_loss: 27.34213
+INFO - 06/03/25 16:22:40 - 0:05:02 - val_acc: all_acc: 0.76562, tsk1_acc: 0.74826, tsk2_acc: 0.81684, tsk3_acc: 0.68316, tsk4_acc: 0.80729
+INFO - 06/03/25 16:22:40 - 0:05:02 - val_g_mean: all_g_mean: 0.76158, tsk1_g_mean: 0.76498, tsk2_g_mean: 0.82180, tsk3_g_mean: 0.66319, tsk4_g_mean: 0.81608
+INFO - 06/03/25 16:22:40 - 0:05:02 - val_auc:  all_auc: 0.89876, tsk1_auc: 0.77426, tsk2_auc: 0.84963, tsk3_auc: 0.65910, tsk4_auc: 0.82483
+INFO - 06/03/25 16:22:40 - 0:05:02 - val_f1:  all_f1: 0.76143, tsk1_f1: 0.74563, tsk2_f1: 0.81658, tsk3_f1: 0.61554, tsk4_f1: 0.80703
+INFO - 06/03/25 16:23:11 - 0:05:33 - Train Loss: 1.7787
+INFO - 06/03/25 16:23:11 - 0:05:33 - val_loss:  all_loss: 3.39440, tsk1_loss: 121.03902, tsk2_loss: 67.76805, tsk3_loss: 51.96601, tsk4_loss: 20.66921
+INFO - 06/03/25 16:23:11 - 0:05:33 - val_acc: all_acc: 0.80295, tsk1_acc: 0.75608, tsk2_acc: 0.79948, tsk3_acc: 0.77344, tsk4_acc: 0.82465
+INFO - 06/03/25 16:23:11 - 0:05:33 - val_g_mean: all_g_mean: 0.80222, tsk1_g_mean: 0.77206, tsk2_g_mean: 0.79755, tsk3_g_mean: 0.76713, tsk4_g_mean: 0.82242
+INFO - 06/03/25 16:23:11 - 0:05:33 - val_auc:  all_auc: 0.91079, tsk1_auc: 0.77123, tsk2_auc: 0.80662, tsk3_auc: 0.77977, tsk4_auc: 0.85642
+INFO - 06/03/25 16:23:11 - 0:05:33 - val_f1:  all_f1: 0.80157, tsk1_f1: 0.75387, tsk2_f1: 0.79686, tsk3_f1: 0.75075, tsk4_f1: 0.82205
+INFO - 06/03/25 16:23:42 - 0:06:04 - Train Loss: 0.7214
+INFO - 06/03/25 16:23:42 - 0:06:04 - val_loss:  all_loss: 3.21456, tsk1_loss: 50.96902, tsk2_loss: 94.06953, tsk3_loss: 25.78250, tsk4_loss: 42.14422
+INFO - 06/03/25 16:23:42 - 0:06:04 - val_acc: all_acc: 0.82292, tsk1_acc: 0.72830, tsk2_acc: 0.69097, tsk3_acc: 0.82639, tsk4_acc: 0.77951
+INFO - 06/03/25 16:23:42 - 0:06:04 - val_g_mean: all_g_mean: 0.82124, tsk1_g_mean: 0.71906, tsk2_g_mean: 0.67603, tsk3_g_mean: 0.82631, tsk4_g_mean: 0.77384
+INFO - 06/03/25 16:23:42 - 0:06:04 - val_auc:  all_auc: 0.92728, tsk1_auc: 0.79328, tsk2_auc: 0.72641, tsk3_auc: 0.84854, tsk4_auc: 0.84828
+INFO - 06/03/25 16:23:42 - 0:06:04 - val_f1:  all_f1: 0.80790, tsk1_f1: 0.71537, tsk2_f1: 0.66737, tsk3_f1: 0.82549, tsk4_f1: 0.75839
+INFO - 06/03/25 16:24:13 - 0:06:34 - Train Loss: 0.6918
+INFO - 06/03/25 16:24:13 - 0:06:34 - val_loss:  all_loss: 4.70101, tsk1_loss: 143.49491, tsk2_loss: 93.39351, tsk3_loss: 62.99056, tsk4_loss: 42.42217
+INFO - 06/03/25 16:24:13 - 0:06:34 - val_acc: all_acc: 0.79688, tsk1_acc: 0.60851, tsk2_acc: 0.72830, tsk3_acc: 0.70052, tsk4_acc: 0.76562
+INFO - 06/03/25 16:24:13 - 0:06:34 - val_g_mean: all_g_mean: 0.79355, tsk1_g_mean: 0.53911, tsk2_g_mean: 0.71685, tsk3_g_mean: 0.71186, tsk4_g_mean: 0.75851
+INFO - 06/03/25 16:24:13 - 0:06:34 - val_auc:  all_auc: 0.93175, tsk1_auc: 0.61607, tsk2_auc: 0.75445, tsk3_auc: 0.74640, tsk4_auc: 0.82951
+INFO - 06/03/25 16:24:13 - 0:06:34 - val_f1:  all_f1: 0.77292, tsk1_f1: 0.46669, tsk2_f1: 0.69124, tsk3_f1: 0.69919, tsk4_f1: 0.74545
+INFO - 06/03/25 16:24:43 - 0:07:05 - Train Loss: 0.7316
+INFO - 06/03/25 16:24:43 - 0:07:05 - val_loss:  all_loss: 2.45330, tsk1_loss: 43.12406, tsk2_loss: 37.05315, tsk3_loss: 50.89595, tsk4_loss: 31.25523
+INFO - 06/03/25 16:24:43 - 0:07:05 - val_acc: all_acc: 0.86806, tsk1_acc: 0.73611, tsk2_acc: 0.80903, tsk3_acc: 0.78125, tsk4_acc: 0.80903
+INFO - 06/03/25 16:24:43 - 0:07:05 - val_g_mean: all_g_mean: 0.86564, tsk1_g_mean: 0.72705, tsk2_g_mean: 0.80422, tsk3_g_mean: 0.78223, tsk4_g_mean: 0.80665
+INFO - 06/03/25 16:24:43 - 0:07:05 - val_auc:  all_auc: 0.92584, tsk1_auc: 0.81912, tsk2_auc: 0.85273, tsk3_auc: 0.79707, tsk4_auc: 0.83135
+INFO - 06/03/25 16:24:43 - 0:07:05 - val_f1:  all_f1: 0.86305, tsk1_f1: 0.69784, tsk2_f1: 0.79896, tsk3_f1: 0.78028, tsk4_f1: 0.80628
+INFO - 06/03/25 16:25:14 - 0:07:35 - Train Loss: 0.1057
+INFO - 06/03/25 16:25:14 - 0:07:35 - val_loss:  all_loss: 2.39183, tsk1_loss: 42.71610, tsk2_loss: 25.23935, tsk3_loss: 61.31393, tsk4_loss: 30.94802
+INFO - 06/03/25 16:25:14 - 0:07:35 - val_acc: all_acc: 0.86024, tsk1_acc: 0.75781, tsk2_acc: 0.83073, tsk3_acc: 0.82465, tsk4_acc: 0.82292
+INFO - 06/03/25 16:25:14 - 0:07:35 - val_g_mean: all_g_mean: 0.85910, tsk1_g_mean: 0.77377, tsk2_g_mean: 0.83441, tsk3_g_mean: 0.82145, tsk4_g_mean: 0.82374
+INFO - 06/03/25 16:25:14 - 0:07:35 - val_auc:  all_auc: 0.92436, tsk1_auc: 0.80923, tsk2_auc: 0.84867, tsk3_auc: 0.82004, tsk4_auc: 0.84028
+INFO - 06/03/25 16:25:14 - 0:07:35 - val_f1:  all_f1: 0.85845, tsk1_f1: 0.75510, tsk2_f1: 0.83054, tsk3_f1: 0.81296, tsk4_f1: 0.82229
+INFO - 06/03/25 16:25:44 - 0:08:06 - Train Loss: 0.2054
+INFO - 06/03/25 16:25:44 - 0:08:06 - val_loss:  all_loss: 3.20373, tsk1_loss: 80.02855, tsk2_loss: 53.39833, tsk3_loss: 76.17622, tsk4_loss: 26.48839
+INFO - 06/03/25 16:25:44 - 0:08:06 - val_acc: all_acc: 0.83247, tsk1_acc: 0.69097, tsk2_acc: 0.71441, tsk3_acc: 0.80295, tsk4_acc: 0.81684
+INFO - 06/03/25 16:25:44 - 0:08:06 - val_g_mean: all_g_mean: 0.83199, tsk1_g_mean: 0.71776, tsk2_g_mean: 0.73034, tsk3_g_mean: 0.79978, tsk4_g_mean: 0.81341
+INFO - 06/03/25 16:25:44 - 0:08:06 - val_auc:  all_auc: 0.92031, tsk1_auc: 0.72535, tsk2_auc: 0.75006, tsk3_auc: 0.80368, tsk4_auc: 0.86763
+INFO - 06/03/25 16:25:44 - 0:08:06 - val_f1:  all_f1: 0.83135, tsk1_f1: 0.67928, tsk2_f1: 0.71059, tsk3_f1: 0.78536, tsk4_f1: 0.81319
+INFO - 06/03/25 16:26:15 - 0:08:36 - Train Loss: 0.3700
+INFO - 06/03/25 16:26:15 - 0:08:36 - val_loss:  all_loss: 2.19639, tsk1_loss: 25.93587, tsk2_loss: 40.05887, tsk3_loss: 47.77206, tsk4_loss: 26.92004
+INFO - 06/03/25 16:26:15 - 0:08:36 - val_acc: all_acc: 0.87413, tsk1_acc: 0.81684, tsk2_acc: 0.75955, tsk3_acc: 0.82465, tsk4_acc: 0.83073
+INFO - 06/03/25 16:26:15 - 0:08:36 - val_g_mean: all_g_mean: 0.87333, tsk1_g_mean: 0.81741, tsk2_g_mean: 0.76418, tsk3_g_mean: 0.82248, tsk4_g_mean: 0.82674
+INFO - 06/03/25 16:26:15 - 0:08:36 - val_auc:  all_auc: 0.92230, tsk1_auc: 0.81735, tsk2_auc: 0.77339, tsk3_auc: 0.86739, tsk4_auc: 0.84952
+INFO - 06/03/25 16:26:15 - 0:08:36 - val_f1:  all_f1: 0.87211, tsk1_f1: 0.81597, tsk2_f1: 0.75952, tsk3_f1: 0.81146, tsk4_f1: 0.82465
+INFO - 06/03/25 16:26:45 - 0:09:07 - Train Loss: 0.0318
+INFO - 06/03/25 16:26:45 - 0:09:07 - val_loss:  all_loss: 2.32403, tsk1_loss: 51.20112, tsk2_loss: 44.97570, tsk3_loss: 29.83479, tsk4_loss: 24.71818
+INFO - 06/03/25 16:26:45 - 0:09:07 - val_acc: all_acc: 0.86806, tsk1_acc: 0.73785, tsk2_acc: 0.82465, tsk3_acc: 0.84028, tsk4_acc: 0.81076
+INFO - 06/03/25 16:26:45 - 0:09:07 - val_g_mean: all_g_mean: 0.86564, tsk1_g_mean: 0.72788, tsk2_g_mean: 0.82248, tsk3_g_mean: 0.83719, tsk4_g_mean: 0.80628
+INFO - 06/03/25 16:26:45 - 0:09:07 - val_auc:  all_auc: 0.92862, tsk1_auc: 0.80479, tsk2_auc: 0.88475, tsk3_auc: 0.87026, tsk4_auc: 0.85910
+INFO - 06/03/25 16:26:45 - 0:09:07 - val_f1:  all_f1: 0.86305, tsk1_f1: 0.70028, tsk2_f1: 0.81146, tsk3_f1: 0.83680, tsk4_f1: 0.80474
+INFO - 06/03/25 16:27:13 - 0:09:35 - Train Loss: 0.1133
+INFO - 06/03/25 16:27:13 - 0:09:35 - val_loss:  all_loss: 2.75936, tsk1_loss: 55.64966, tsk2_loss: 69.14130, tsk3_loss: 49.32349, tsk4_loss: 23.69859
+INFO - 06/03/25 16:27:13 - 0:09:35 - val_acc: all_acc: 0.86806, tsk1_acc: 0.74392, tsk2_acc: 0.78733, tsk3_acc: 0.81510, tsk4_acc: 0.80295
+INFO - 06/03/25 16:27:13 - 0:09:35 - val_g_mean: all_g_mean: 0.86553, tsk1_g_mean: 0.73761, tsk2_g_mean: 0.78533, tsk3_g_mean: 0.82181, tsk4_g_mean: 0.79829
+INFO - 06/03/25 16:27:13 - 0:09:35 - val_auc:  all_auc: 0.93807, tsk1_auc: 0.79540, tsk2_auc: 0.78538, tsk3_auc: 0.82656, tsk4_auc: 0.84895
+INFO - 06/03/25 16:27:13 - 0:09:35 - val_f1:  all_f1: 0.86513, tsk1_f1: 0.70180, tsk2_f1: 0.76118, tsk3_f1: 0.81462, tsk4_f1: 0.79716
+INFO - 06/03/25 16:27:43 - 0:10:05 - Train Loss: 0.1225
+INFO - 06/03/25 16:27:43 - 0:10:05 - val_loss:  all_loss: 2.30209, tsk1_loss: 21.84454, tsk2_loss: 43.19974, tsk3_loss: 65.18298, tsk4_loss: 23.49151
+INFO - 06/03/25 16:27:43 - 0:10:05 - val_acc: all_acc: 0.83073, tsk1_acc: 0.80295, tsk2_acc: 0.81076, tsk3_acc: 0.80903, tsk4_acc: 0.80903
+INFO - 06/03/25 16:27:43 - 0:10:05 - val_g_mean: all_g_mean: 0.83013, tsk1_g_mean: 0.79795, tsk2_g_mean: 0.80779, tsk3_g_mean: 0.81803, tsk4_g_mean: 0.80473
+INFO - 06/03/25 16:27:43 - 0:10:05 - val_auc:  all_auc: 0.92907, tsk1_auc: 0.87470, tsk2_auc: 0.88281, tsk3_auc: 0.82295, tsk4_auc: 0.86486
+INFO - 06/03/25 16:27:43 - 0:10:05 - val_f1:  all_f1: 0.82943, tsk1_f1: 0.78996, tsk2_f1: 0.79476, tsk3_f1: 0.80826, tsk4_f1: 0.80370
+INFO - 06/03/25 16:28:14 - 0:10:36 - Train Loss: 0.0721
+INFO - 06/03/25 16:28:14 - 0:10:36 - val_loss:  all_loss: 2.10423, tsk1_loss: 21.79840, tsk2_loss: 31.50407, tsk3_loss: 48.98772, tsk4_loss: 24.21356
+INFO - 06/03/25 16:28:14 - 0:10:36 - val_acc: all_acc: 0.82292, tsk1_acc: 0.83854, tsk2_acc: 0.85417, tsk3_acc: 0.81684, tsk4_acc: 0.78733
+INFO - 06/03/25 16:28:14 - 0:10:36 - val_g_mean: all_g_mean: 0.82268, tsk1_g_mean: 0.83946, tsk2_g_mean: 0.85143, tsk3_g_mean: 0.81811, tsk4_g_mean: 0.78176
+INFO - 06/03/25 16:28:14 - 0:10:36 - val_auc:  all_auc: 0.92297, tsk1_auc: 0.87200, tsk2_auc: 0.88002, tsk3_auc: 0.82836, tsk4_auc: 0.84082
+INFO - 06/03/25 16:28:14 - 0:10:36 - val_f1:  all_f1: 0.82183, tsk1_f1: 0.83798, tsk2_f1: 0.84756, tsk3_f1: 0.81624, tsk4_f1: 0.77978
+INFO - 06/03/25 16:28:44 - 0:11:06 - Train Loss: 0.0108
+INFO - 06/03/25 16:28:44 - 0:11:06 - val_loss:  all_loss: 2.28924, tsk1_loss: 37.86690, tsk2_loss: 28.92294, tsk3_loss: 48.92438, tsk4_loss: 25.66433
+INFO - 06/03/25 16:28:44 - 0:11:06 - val_acc: all_acc: 0.81684, tsk1_acc: 0.82292, tsk2_acc: 0.83247, tsk3_acc: 0.79340, tsk4_acc: 0.76562
+INFO - 06/03/25 16:28:44 - 0:11:06 - val_g_mean: all_g_mean: 0.81533, tsk1_g_mean: 0.83183, tsk2_g_mean: 0.82935, tsk3_g_mean: 0.78738, tsk4_g_mean: 0.75959
+INFO - 06/03/25 16:28:44 - 0:11:06 - val_auc:  all_auc: 0.91587, tsk1_auc: 0.84067, tsk2_auc: 0.87450, tsk3_auc: 0.82221, tsk4_auc: 0.85126
+INFO - 06/03/25 16:28:44 - 0:11:06 - val_f1:  all_f1: 0.81512, tsk1_f1: 0.82266, tsk2_f1: 0.82913, tsk3_f1: 0.78229, tsk4_f1: 0.75798
+INFO - 06/03/25 16:29:14 - 0:11:36 - Train Loss: 0.0278
+INFO - 06/03/25 16:29:14 - 0:11:36 - val_loss:  all_loss: 2.79540, tsk1_loss: 52.17319, tsk2_loss: 32.59857, tsk3_loss: 77.18769, tsk4_loss: 27.19405
+INFO - 06/03/25 16:29:14 - 0:11:36 - val_acc: all_acc: 0.81684, tsk1_acc: 0.81510, tsk2_acc: 0.83854, tsk3_acc: 0.74219, tsk4_acc: 0.75781
+INFO - 06/03/25 16:29:14 - 0:11:36 - val_g_mean: all_g_mean: 0.81533, tsk1_g_mean: 0.82663, tsk2_g_mean: 0.83845, tsk3_g_mean: 0.73394, tsk4_g_mean: 0.75119
+INFO - 06/03/25 16:29:14 - 0:11:36 - val_auc:  all_auc: 0.91488, tsk1_auc: 0.84588, tsk2_auc: 0.84847, tsk3_auc: 0.76724, tsk4_auc: 0.83816
+INFO - 06/03/25 16:29:14 - 0:11:36 - val_f1:  all_f1: 0.81512, tsk1_f1: 0.81462, tsk2_f1: 0.83759, tsk3_f1: 0.70742, tsk4_f1: 0.74933
+INFO - 06/03/25 16:29:45 - 0:12:07 - Train Loss: 0.0592
+INFO - 06/03/25 16:29:45 - 0:12:07 - val_loss:  all_loss: 3.15353, tsk1_loss: 48.70085, tsk2_loss: 39.00960, tsk3_loss: 108.23200, tsk4_loss: 28.57821
+INFO - 06/03/25 16:29:45 - 0:12:07 - val_acc: all_acc: 0.81684, tsk1_acc: 0.82292, tsk2_acc: 0.83854, tsk3_acc: 0.69097, tsk4_acc: 0.76562
+INFO - 06/03/25 16:29:45 - 0:12:07 - val_g_mean: all_g_mean: 0.81533, tsk1_g_mean: 0.83183, tsk2_g_mean: 0.84066, tsk3_g_mean: 0.67464, tsk4_g_mean: 0.75959
+INFO - 06/03/25 16:29:45 - 0:12:07 - val_auc:  all_auc: 0.91595, tsk1_auc: 0.84960, tsk2_auc: 0.85032, tsk3_auc: 0.68527, tsk4_auc: 0.83610
+INFO - 06/03/25 16:29:45 - 0:12:07 - val_f1:  all_f1: 0.81512, tsk1_f1: 0.82266, tsk2_f1: 0.83785, tsk3_f1: 0.62189, tsk4_f1: 0.75798
+INFO - 06/03/25 16:30:16 - 0:12:38 - Train Loss: 0.0461
+INFO - 06/03/25 16:30:16 - 0:12:38 - val_loss:  all_loss: 2.99099, tsk1_loss: 34.06876, tsk2_loss: 44.71501, tsk3_loss: 100.65391, tsk4_loss: 29.66151
+INFO - 06/03/25 16:30:16 - 0:12:38 - val_acc: all_acc: 0.82465, tsk1_acc: 0.81684, tsk2_acc: 0.85243, tsk3_acc: 0.69097, tsk4_acc: 0.76562
+INFO - 06/03/25 16:30:16 - 0:12:38 - val_g_mean: all_g_mean: 0.82289, tsk1_g_mean: 0.82065, tsk2_g_mean: 0.85612, tsk3_g_mean: 0.67464, tsk4_g_mean: 0.75959
+INFO - 06/03/25 16:30:16 - 0:12:38 - val_auc:  all_auc: 0.91438, tsk1_auc: 0.85911, tsk2_auc: 0.85032, tsk3_auc: 0.70089, tsk4_auc: 0.83255
+INFO - 06/03/25 16:30:16 - 0:12:38 - val_f1:  all_f1: 0.82273, tsk1_f1: 0.81624, tsk2_f1: 0.85168, tsk3_f1: 0.62189, tsk4_f1: 0.75798
+INFO - 06/03/25 16:30:47 - 0:13:08 - Train Loss: 0.0183
+INFO - 06/03/25 16:30:47 - 0:13:08 - val_loss:  all_loss: 2.68008, tsk1_loss: 27.99695, tsk2_loss: 47.56761, tsk3_loss: 73.35527, tsk4_loss: 30.61609
+INFO - 06/03/25 16:30:47 - 0:13:08 - val_acc: all_acc: 0.81684, tsk1_acc: 0.77344, tsk2_acc: 0.83854, tsk3_acc: 0.70660, tsk4_acc: 0.75781
+INFO - 06/03/25 16:30:47 - 0:13:08 - val_g_mean: all_g_mean: 0.81464, tsk1_g_mean: 0.76732, tsk2_g_mean: 0.84066, tsk3_g_mean: 0.69409, tsk4_g_mean: 0.75119
+INFO - 06/03/25 16:30:47 - 0:13:08 - val_auc:  all_auc: 0.91751, tsk1_auc: 0.83698, tsk2_auc: 0.85969, tsk3_auc: 0.77386, tsk4_auc: 0.81463
+INFO - 06/03/25 16:30:47 - 0:13:08 - val_f1:  all_f1: 0.81443, tsk1_f1: 0.76543, tsk2_f1: 0.83785, tsk3_f1: 0.64670, tsk4_f1: 0.74933
+INFO - 06/03/25 16:31:17 - 0:13:39 - Train Loss: 0.0016
+INFO - 06/03/25 16:31:17 - 0:13:39 - val_loss:  all_loss: 2.61884, tsk1_loss: 42.11230, tsk2_loss: 45.19253, tsk3_loss: 54.68312, tsk4_loss: 31.41437
+INFO - 06/03/25 16:31:17 - 0:13:39 - val_acc: all_acc: 0.83073, tsk1_acc: 0.78733, tsk2_acc: 0.78733, tsk3_acc: 0.75174, tsk4_acc: 0.75781
+INFO - 06/03/25 16:31:17 - 0:13:39 - val_g_mean: all_g_mean: 0.82756, tsk1_g_mean: 0.78351, tsk2_g_mean: 0.78559, tsk3_g_mean: 0.74613, tsk4_g_mean: 0.75119
+INFO - 06/03/25 16:31:17 - 0:13:39 - val_auc:  all_auc: 0.91850, tsk1_auc: 0.79323, tsk2_auc: 0.84294, tsk3_auc: 0.82785, tsk4_auc: 0.81006
+INFO - 06/03/25 16:31:17 - 0:13:39 - val_f1:  all_f1: 0.82707, tsk1_f1: 0.76573, tsk2_f1: 0.78493, tsk3_f1: 0.71233, tsk4_f1: 0.74933
+INFO - 06/03/25 16:31:45 - 0:14:07 - Train Loss: 0.0004
+INFO - 06/03/25 16:31:45 - 0:14:07 - val_loss:  all_loss: 2.71237, tsk1_loss: 63.52109, tsk2_loss: 43.26823, tsk3_loss: 43.41369, tsk4_loss: 32.07096
+INFO - 06/03/25 16:31:45 - 0:14:07 - val_acc: all_acc: 0.83854, tsk1_acc: 0.71615, tsk2_acc: 0.78733, tsk3_acc: 0.77691, tsk4_acc: 0.75781
+INFO - 06/03/25 16:31:45 - 0:14:07 - val_g_mean: all_g_mean: 0.83490, tsk1_g_mean: 0.70303, tsk2_g_mean: 0.78559, tsk3_g_mean: 0.76852, tsk4_g_mean: 0.75119
+INFO - 06/03/25 16:31:45 - 0:14:07 - val_auc:  all_auc: 0.92205, tsk1_auc: 0.75322, tsk2_auc: 0.85260, tsk3_auc: 0.85335, tsk4_auc: 0.79221
+INFO - 06/03/25 16:31:45 - 0:14:07 - val_f1:  all_f1: 0.83331, tsk1_f1: 0.65774, tsk2_f1: 0.78493, tsk3_f1: 0.74866, tsk4_f1: 0.74933
+INFO - 06/03/25 16:32:16 - 0:14:38 - Train Loss: 0.0065
+INFO - 06/03/25 16:32:16 - 0:14:38 - val_loss:  all_loss: 2.78960, tsk1_loss: 81.18460, tsk2_loss: 40.56659, tsk3_loss: 37.04179, tsk4_loss: 32.61186
+INFO - 06/03/25 16:32:16 - 0:14:38 - val_acc: all_acc: 0.83854, tsk1_acc: 0.67708, tsk2_acc: 0.79514, tsk3_acc: 0.84635, tsk4_acc: 0.75781
+INFO - 06/03/25 16:32:16 - 0:14:38 - val_g_mean: all_g_mean: 0.83490, tsk1_g_mean: 0.65672, tsk2_g_mean: 0.79391, tsk3_g_mean: 0.84386, tsk4_g_mean: 0.75119
+INFO - 06/03/25 16:32:16 - 0:14:38 - val_auc:  all_auc: 0.92510, tsk1_auc: 0.74008, tsk2_auc: 0.85409, tsk3_auc: 0.86739, tsk4_auc: 0.79221
+INFO - 06/03/25 16:32:16 - 0:14:38 - val_f1:  all_f1: 0.83331, tsk1_f1: 0.59907, tsk2_f1: 0.79331, tsk3_f1: 0.83794, tsk4_f1: 0.74933
+INFO - 06/03/25 16:32:46 - 0:15:08 - Train Loss: 0.0028
+INFO - 06/03/25 16:32:46 - 0:15:08 - val_loss:  all_loss: 2.71295, tsk1_loss: 80.76515, tsk2_loss: 38.84150, tsk3_loss: 33.86619, tsk4_loss: 33.09200
+INFO - 06/03/25 16:32:46 - 0:15:08 - val_acc: all_acc: 0.84635, tsk1_acc: 0.67708, tsk2_acc: 0.83073, tsk3_acc: 0.87587, tsk4_acc: 0.74392
+INFO - 06/03/25 16:32:46 - 0:15:08 - val_g_mean: all_g_mean: 0.84303, tsk1_g_mean: 0.65672, tsk2_g_mean: 0.83013, tsk3_g_mean: 0.87397, tsk4_g_mean: 0.73606
+INFO - 06/03/25 16:32:46 - 0:15:08 - val_auc:  all_auc: 0.92666, tsk1_auc: 0.72098, tsk2_auc: 0.85714, tsk3_auc: 0.89793, tsk4_auc: 0.79221
+INFO - 06/03/25 16:32:46 - 0:15:08 - val_f1:  all_f1: 0.84183, tsk1_f1: 0.59907, tsk2_f1: 0.82943, tsk3_f1: 0.87079, tsk4_f1: 0.73314
+INFO - 06/03/25 16:33:17 - 0:15:39 - Train Loss: 0.0000
+INFO - 06/03/25 16:33:17 - 0:15:39 - val_loss:  all_loss: 2.66638, tsk1_loss: 80.47365, tsk2_loss: 38.05382, tsk3_loss: 31.92104, tsk4_loss: 33.51122
+INFO - 06/03/25 16:33:17 - 0:15:39 - val_acc: all_acc: 0.84635, tsk1_acc: 0.68490, tsk2_acc: 0.83854, tsk3_acc: 0.86024, tsk4_acc: 0.74392
+INFO - 06/03/25 16:33:17 - 0:15:39 - val_g_mean: all_g_mean: 0.84303, tsk1_g_mean: 0.66664, tsk2_g_mean: 0.83845, tsk3_g_mean: 0.85754, tsk4_g_mean: 0.73606
+INFO - 06/03/25 16:33:17 - 0:15:39 - val_auc:  all_auc: 0.92815, tsk1_auc: 0.70312, tsk2_auc: 0.86225, tsk3_auc: 0.89509, tsk4_auc: 0.79221
+INFO - 06/03/25 16:33:17 - 0:15:39 - val_f1:  all_f1: 0.84183, tsk1_f1: 0.61173, tsk2_f1: 0.83759, tsk3_f1: 0.85537, tsk4_f1: 0.73314
+INFO - 06/03/25 16:33:48 - 0:16:10 - Train Loss: 0.0000
+INFO - 06/03/25 16:33:48 - 0:16:10 - val_loss:  all_loss: 2.64036, tsk1_loss: 80.55255, tsk2_loss: 37.41855, tsk3_loss: 31.05380, tsk4_loss: 33.85688
+INFO - 06/03/25 16:33:48 - 0:16:10 - val_acc: all_acc: 0.84635, tsk1_acc: 0.70660, tsk2_acc: 0.83854, tsk3_acc: 0.86806, tsk4_acc: 0.74392
+INFO - 06/03/25 16:33:48 - 0:16:10 - val_g_mean: all_g_mean: 0.84303, tsk1_g_mean: 0.69409, tsk2_g_mean: 0.83845, tsk3_g_mean: 0.86599, tsk4_g_mean: 0.73606
+INFO - 06/03/25 16:33:48 - 0:16:10 - val_auc:  all_auc: 0.92865, tsk1_auc: 0.70312, tsk2_auc: 0.86225, tsk3_auc: 0.87971, tsk4_auc: 0.77875
+INFO - 06/03/25 16:33:48 - 0:16:10 - val_f1:  all_f1: 0.84183, tsk1_f1: 0.64670, tsk2_f1: 0.83759, tsk3_f1: 0.86433, tsk4_f1: 0.73314
+INFO - 06/03/25 16:34:18 - 0:16:40 - Train Loss: 0.0004
+INFO - 06/03/25 16:34:18 - 0:16:40 - val_loss:  all_loss: 2.54073, tsk1_loss: 72.71399, tsk2_loss: 36.94035, tsk3_loss: 30.74837, tsk4_loss: 34.14138
+INFO - 06/03/25 16:34:18 - 0:16:40 - val_acc: all_acc: 0.85417, tsk1_acc: 0.71441, tsk2_acc: 0.83854, tsk3_acc: 0.86806, tsk4_acc: 0.74392
+INFO - 06/03/25 16:34:18 - 0:16:40 - val_g_mean: all_g_mean: 0.85114, tsk1_g_mean: 0.70330, tsk2_g_mean: 0.83845, tsk3_g_mean: 0.86599, tsk4_g_mean: 0.73606
+INFO - 06/03/25 16:34:18 - 0:16:40 - val_auc:  all_auc: 0.92865, tsk1_auc: 0.70312, tsk2_auc: 0.86225, tsk3_auc: 0.87996, tsk4_auc: 0.77875
+INFO - 06/03/25 16:34:18 - 0:16:40 - val_f1:  all_f1: 0.85022, tsk1_f1: 0.65840, tsk2_f1: 0.83759, tsk3_f1: 0.86433, tsk4_f1: 0.73314
+INFO - 06/03/25 16:34:49 - 0:17:10 - Train Loss: 0.0000
+INFO - 06/03/25 16:34:49 - 0:17:10 - val_loss:  all_loss: 2.46343, tsk1_loss: 66.49116, tsk2_loss: 36.54668, tsk3_loss: 30.51649, tsk4_loss: 34.37544
+INFO - 06/03/25 16:34:49 - 0:17:10 - val_acc: all_acc: 0.84028, tsk1_acc: 0.71441, tsk2_acc: 0.83854, tsk3_acc: 0.86024, tsk4_acc: 0.74392
+INFO - 06/03/25 16:34:49 - 0:17:10 - val_g_mean: all_g_mean: 0.83719, tsk1_g_mean: 0.70330, tsk2_g_mean: 0.83845, tsk3_g_mean: 0.85837, tsk4_g_mean: 0.73606
+INFO - 06/03/25 16:34:49 - 0:17:10 - val_auc:  all_auc: 0.92914, tsk1_auc: 0.73772, tsk2_auc: 0.85913, tsk3_auc: 0.87996, tsk4_auc: 0.77875
+INFO - 06/03/25 16:34:49 - 0:17:10 - val_f1:  all_f1: 0.83680, tsk1_f1: 0.65840, tsk2_f1: 0.83759, tsk3_f1: 0.85666, tsk4_f1: 0.73314
+INFO - 06/03/25 16:35:20 - 0:17:42 - Train Loss: 0.0000
+INFO - 06/03/25 16:35:20 - 0:17:42 - val_loss:  all_loss: 2.40189, tsk1_loss: 61.37511, tsk2_loss: 36.22189, tsk3_loss: 30.38447, tsk4_loss: 34.56849
+INFO - 06/03/25 16:35:20 - 0:17:42 - val_acc: all_acc: 0.84028, tsk1_acc: 0.71441, tsk2_acc: 0.83854, tsk3_acc: 0.86024, tsk4_acc: 0.74392
+INFO - 06/03/25 16:35:20 - 0:17:42 - val_g_mean: all_g_mean: 0.83719, tsk1_g_mean: 0.70330, tsk2_g_mean: 0.83845, tsk3_g_mean: 0.85837, tsk4_g_mean: 0.73606
+INFO - 06/03/25 16:35:20 - 0:17:42 - val_auc:  all_auc: 0.92914, tsk1_auc: 0.76585, tsk2_auc: 0.85913, tsk3_auc: 0.87946, tsk4_auc: 0.77875
+INFO - 06/03/25 16:35:20 - 0:17:42 - val_f1:  all_f1: 0.83680, tsk1_f1: 0.65840, tsk2_f1: 0.83759, tsk3_f1: 0.85666, tsk4_f1: 0.73314
+INFO - 06/03/25 16:35:51 - 0:18:12 - Train Loss: 0.0000
+INFO - 06/03/25 16:35:51 - 0:18:12 - val_loss:  all_loss: 2.35274, tsk1_loss: 57.21585, tsk2_loss: 35.95353, tsk3_loss: 30.27775, tsk4_loss: 34.72795
+INFO - 06/03/25 16:35:51 - 0:18:12 - val_acc: all_acc: 0.83247, tsk1_acc: 0.72222, tsk2_acc: 0.83854, tsk3_acc: 0.86024, tsk4_acc: 0.74392
+INFO - 06/03/25 16:35:51 - 0:18:12 - val_g_mean: all_g_mean: 0.82935, tsk1_g_mean: 0.71224, tsk2_g_mean: 0.83845, tsk3_g_mean: 0.85837, tsk4_g_mean: 0.73606
+INFO - 06/03/25 16:35:51 - 0:18:12 - val_auc:  all_auc: 0.93070, tsk1_auc: 0.79632, tsk2_auc: 0.85913, tsk3_auc: 0.87117, tsk4_auc: 0.77875
+INFO - 06/03/25 16:35:51 - 0:18:12 - val_f1:  all_f1: 0.82913, tsk1_f1: 0.66967, tsk2_f1: 0.83759, tsk3_f1: 0.85666, tsk4_f1: 0.73314
+INFO - 06/03/25 16:36:20 - 0:18:41 - Train Loss: 0.0000
+INFO - 06/03/25 16:36:20 - 0:18:41 - val_loss:  all_loss: 2.31495, tsk1_loss: 53.89269, tsk2_loss: 35.73197, tsk3_loss: 30.29080, tsk4_loss: 34.85958
+INFO - 06/03/25 16:36:20 - 0:18:41 - val_acc: all_acc: 0.82465, tsk1_acc: 0.73003, tsk2_acc: 0.83854, tsk3_acc: 0.85243, tsk4_acc: 0.74392
+INFO - 06/03/25 16:36:20 - 0:18:41 - val_g_mean: all_g_mean: 0.82166, tsk1_g_mean: 0.72095, tsk2_g_mean: 0.83845, tsk3_g_mean: 0.85088, tsk4_g_mean: 0.73606
+INFO - 06/03/25 16:36:20 - 0:18:41 - val_auc:  all_auc: 0.93070, tsk1_auc: 0.81984, tsk2_auc: 0.85913, tsk3_auc: 0.86808, tsk4_auc: 0.77726
+INFO - 06/03/25 16:36:20 - 0:18:41 - val_f1:  all_f1: 0.82150, tsk1_f1: 0.68056, tsk2_f1: 0.83759, tsk3_f1: 0.84901, tsk4_f1: 0.73314
+INFO - 06/03/25 16:36:20 - 0:18:41 - No improvement. Breaking out of loop.
